@@ -116,11 +116,8 @@ var imageGenerator = {
    */
   validHref: function(href) {
     // only handle imgur links for now
-    if(href.match(IMGUR_URL)) {
-      console.log("imgurURL");
-      return imgurURL(href);
-    } else {
-      console.log("what waht what");
+    if(href.match(/\.(jpg|jpeg|gif|png|bmp)$/)) {
+      return href
     }
     return null;
   },
