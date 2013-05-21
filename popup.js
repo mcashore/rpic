@@ -1,5 +1,5 @@
 var LINK_XPATH = ".//div[@class='content']//div[@id='siteTable']/div[@class!='clearleft']";
-var IMG_XPATH = ".//a[@class='title ']";//["./a", ".//a[@class='title ']"];
+var IMG_XPATH = ".//a[@class='title ' or @class='title loggedin ']";//["./a", ".//a[@class='title ']"];
 var TITLE_XPATH = ".//a[@class='title ']";//[".//a[@class='title ']"]
 
 var EXT_IMG_WIDTH = 750;
